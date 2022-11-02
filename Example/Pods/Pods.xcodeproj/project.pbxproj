@@ -43,7 +43,7 @@
 		1B3AA939950E0D2327D8ED55DD868CA1 /* Pods-FloatingWindow_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FloatingWindow_Tests-umbrella.h"; sourceTree = "<group>"; };
 		293B45F8061E60F460032CE3697A1503 /* Pods-FloatingWindow_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FloatingWindow_Tests.modulemap"; sourceTree = "<group>"; };
 		2CBE79122EE9D9E8A71049AF7BAE3FA3 /* Pods-FloatingWindow_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FloatingWindow_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2EF8A872E7EF4DA3A14BDE4BA259DAA4 /* FloatingWindow.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FloatingWindow.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		2EF8A872E7EF4DA3A14BDE4BA259DAA4 /* FloatingWindow.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FloatingWindow.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		421EB5AFB62576EA83BBE44322196B1C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = FloatingWindow/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		4B9BE6875E8027F422024FFD9E3237DE /* Pods-FloatingWindow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FloatingWindow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		527CDBEE826BF47BE8D784B57AF075EB /* Pods-FloatingWindow_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FloatingWindow_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -53,9 +53,9 @@
 		7B1AFED2C1BCA7C632DA7C397115F2CC /* FloatingWindow-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FloatingWindow-Info.plist"; sourceTree = "<group>"; };
 		85D336ACF1BCEFD502A264225055A557 /* Pods-FloatingWindow_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FloatingWindow_Example-dummy.m"; sourceTree = "<group>"; };
 		8C2D3D33095B5264B10A4CEA54A9F1B8 /* Pods-FloatingWindow_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FloatingWindow_Example-frameworks.sh"; sourceTree = "<group>"; };
-		908374F38412B07D23289F35E032E74D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		908374F38412B07D23289F35E032E74D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9100CFE1D69FAA05CEC9E4E5FF979F27 /* Pods-FloatingWindow_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FloatingWindow_Example"; path = Pods_FloatingWindow_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A473BF20CDD958F673DCFB619788664D /* FloatingWindow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FloatingWindow-dummy.m"; sourceTree = "<group>"; };
 		AA7CF76E51219AA5B012C6A496DF451B /* Pods-FloatingWindow_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FloatingWindow_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AB8691790D8EAD6D287A928E8246884A /* Pods-FloatingWindow_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FloatingWindow_Example.modulemap"; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		D7B49C7AB3E2E63D8779A9FEF13CBB58 /* Pods-FloatingWindow_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FloatingWindow_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D881DDC3EA3369B71080466CA874115E /* FloatingWindow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FloatingWindow-umbrella.h"; sourceTree = "<group>"; };
 		D9608506F03D80316A8DCCF809E65477 /* FloatingWindow */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FloatingWindow; path = FloatingWindow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1810BE8CA3D389BE8C2935E26E3880D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E1810BE8CA3D389BE8C2935E26E3880D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		E2567BD2FDD78CCACCC721B8AE6CDCDD /* Pods-FloatingWindow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FloatingWindow_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E5DEEFBAF7BEF6D01217E86085238D17 /* Pods-FloatingWindow_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FloatingWindow_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EC5EEB10D24CE5880E59C143CDA6DA0C /* Pods-FloatingWindow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FloatingWindow_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -595,7 +595,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
