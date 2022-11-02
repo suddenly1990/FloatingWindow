@@ -1,0 +1,22 @@
+{
+  "name": "FloatingWindow",
+  "version": "0.1.0",
+  "summary": "A short description of FloatingWindow.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/suddenly1990/FloatingWindow",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "suddenly1990": "suddenly1990@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/suddenly1990/FloatingWindow.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "FloatingWindow/Classes/**/*"
+}

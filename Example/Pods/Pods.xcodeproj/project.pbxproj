@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04EE7D47C448E6F7964324C6F9F8ED7D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 421EB5AFB62576EA83BBE44322196B1C /* ReplaceMe.m */; };
+		109AF50843B2D97C188E430CAEDF20CA /* FloatingWindow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D881DDC3EA3369B71080466CA874115E /* FloatingWindow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E83550685C816BF842FA12BA1AE707F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6A2D5AB07DC2ADB5ED461D71AC23A030 /* Pods-FloatingWindow_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B3AA939950E0D2327D8ED55DD868CA1 /* Pods-FloatingWindow_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82A17E1E1AC72DD085468788739CD31C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A72369CA76116648AA4D0FB90BA255DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B44CD8B7E4630054B111B4021CB2D42B /* FloatingWindow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A473BF20CDD958F673DCFB619788664D /* FloatingWindow-dummy.m */; };
+		C53DEF54620942B10B1D0CE05155B325 /* Pods-FloatingWindow_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D336ACF1BCEFD502A264225055A557 /* Pods-FloatingWindow_Example-dummy.m */; };
+		CB559F4782CCE785BD4F8330F706CD07 /* Pods-FloatingWindow_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D1C49D5EA41BF16DEF5F24136DCC33F /* Pods-FloatingWindow_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D71EBC6559198EFA400CBC8E01E2D5A7 /* Pods-FloatingWindow_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F64279502D8CB70A480E2498B79AE4 /* Pods-FloatingWindow_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78C01B4EA77176EC5EF6759B2987B664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E08D0AD68054717418D405D6B2F68C16;
+			remoteInfo = FloatingWindow;
+		};
+		95ED811868ECFDAF795569C48DE9C8AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D04C87C1A3ACD858980FD0D10DA2F83;
+			remoteInfo = "Pods-FloatingWindow_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07C290785F490F44113A1EB580DB0CDD /* FloatingWindow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FloatingWindow.debug.xcconfig; sourceTree = "<group>"; };
+		0A5BBDBB2248FC77D1EDA5B936E56065 /* Pods-FloatingWindow_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FloatingWindow_Example-Info.plist"; sourceTree = "<group>"; };
+		0C82A150DE9B7576E32AA46BBC44E115 /* FloatingWindow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FloatingWindow-prefix.pch"; sourceTree = "<group>"; };
+		1B3AA939950E0D2327D8ED55DD868CA1 /* Pods-FloatingWindow_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FloatingWindow_Tests-umbrella.h"; sourceTree = "<group>"; };
+		293B45F8061E60F460032CE3697A1503 /* Pods-FloatingWindow_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FloatingWindow_Tests.modulemap"; sourceTree = "<group>"; };
+		2CBE79122EE9D9E8A71049AF7BAE3FA3 /* Pods-FloatingWindow_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FloatingWindow_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2EF8A872E7EF4DA3A14BDE4BA259DAA4 /* FloatingWindow.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FloatingWindow.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		421EB5AFB62576EA83BBE44322196B1C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = FloatingWindow/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		4B9BE6875E8027F422024FFD9E3237DE /* Pods-FloatingWindow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FloatingWindow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		527CDBEE826BF47BE8D784B57AF075EB /* Pods-FloatingWindow_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FloatingWindow_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6D1C49D5EA41BF16DEF5F24136DCC33F /* Pods-FloatingWindow_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FloatingWindow_Example-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78F64279502D8CB70A480E2498B79AE4 /* Pods-FloatingWindow_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FloatingWindow_Tests-dummy.m"; sourceTree = "<group>"; };
+		7B1AFED2C1BCA7C632DA7C397115F2CC /* FloatingWindow-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FloatingWindow-Info.plist"; sourceTree = "<group>"; };
+		85D336ACF1BCEFD502A264225055A557 /* Pods-FloatingWindow_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FloatingWindow_Example-dummy.m"; sourceTree = "<group>"; };
+		8C2D3D33095B5264B10A4CEA54A9F1B8 /* Pods-FloatingWindow_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FloatingWindow_Example-frameworks.sh"; sourceTree = "<group>"; };
+		908374F38412B07D23289F35E032E74D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9100CFE1D69FAA05CEC9E4E5FF979F27 /* Pods-FloatingWindow_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FloatingWindow_Example"; path = Pods_FloatingWindow_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A473BF20CDD958F673DCFB619788664D /* FloatingWindow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FloatingWindow-dummy.m"; sourceTree = "<group>"; };
+		AA7CF76E51219AA5B012C6A496DF451B /* Pods-FloatingWindow_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FloatingWindow_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AB8691790D8EAD6D287A928E8246884A /* Pods-FloatingWindow_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FloatingWindow_Example.modulemap"; sourceTree = "<group>"; };
+		BAEE3AE02699046595DC107F11DBEB17 /* Pods-FloatingWindow_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FloatingWindow_Tests-Info.plist"; sourceTree = "<group>"; };
+		CD1E24D10FB7AE76F589B363D90AD7BB /* FloatingWindow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FloatingWindow.modulemap; sourceTree = "<group>"; };
+		D7B49C7AB3E2E63D8779A9FEF13CBB58 /* Pods-FloatingWindow_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FloatingWindow_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D881DDC3EA3369B71080466CA874115E /* FloatingWindow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FloatingWindow-umbrella.h"; sourceTree = "<group>"; };
+		D9608506F03D80316A8DCCF809E65477 /* FloatingWindow */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FloatingWindow; path = FloatingWindow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1810BE8CA3D389BE8C2935E26E3880D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E2567BD2FDD78CCACCC721B8AE6CDCDD /* Pods-FloatingWindow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FloatingWindow_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E5DEEFBAF7BEF6D01217E86085238D17 /* Pods-FloatingWindow_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FloatingWindow_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC5EEB10D24CE5880E59C143CDA6DA0C /* Pods-FloatingWindow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FloatingWindow_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		ED8B2E50A1E51D87CFC43EE3BFD3B7C2 /* Pods-FloatingWindow_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FloatingWindow_Tests"; path = Pods_FloatingWindow_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85594A06ED0F7282E1DDE44E4ACE26F /* FloatingWindow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FloatingWindow.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D7722DC8A50A88BA99334E3700919E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E83550685C816BF842FA12BA1AE707F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A79DAF34EB758F216D69C0A7673A432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A17E1E1AC72DD085468788739CD31C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD83753D5A2E83EE8CBA702A0F72A16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72369CA76116648AA4D0FB90BA255DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AE08E0425276879BC8765513FB2F96E /* FloatingWindow */ = {
+			isa = PBXGroup;
+			children = (
+				421EB5AFB62576EA83BBE44322196B1C /* ReplaceMe.m */,
+				A9FA36E0C4C3540DD9B471A26973A84D /* Pod */,
+				5FF282A12774C324E51BF345BC852E5E /* Support Files */,
+			);
+			name = FloatingWindow;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1433F6CE01DF1835E82CCE48E5F2A77F /* Pods-FloatingWindow_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				293B45F8061E60F460032CE3697A1503 /* Pods-FloatingWindow_Tests.modulemap */,
+				E5DEEFBAF7BEF6D01217E86085238D17 /* Pods-FloatingWindow_Tests-acknowledgements.markdown */,
+				527CDBEE826BF47BE8D784B57AF075EB /* Pods-FloatingWindow_Tests-acknowledgements.plist */,
+				78F64279502D8CB70A480E2498B79AE4 /* Pods-FloatingWindow_Tests-dummy.m */,
+				BAEE3AE02699046595DC107F11DBEB17 /* Pods-FloatingWindow_Tests-Info.plist */,
+				1B3AA939950E0D2327D8ED55DD868CA1 /* Pods-FloatingWindow_Tests-umbrella.h */,
+				4B9BE6875E8027F422024FFD9E3237DE /* Pods-FloatingWindow_Tests.debug.xcconfig */,
+				EC5EEB10D24CE5880E59C143CDA6DA0C /* Pods-FloatingWindow_Tests.release.xcconfig */,
+			);
+			name = "Pods-FloatingWindow_Tests";
+			path = "Target Support Files/Pods-FloatingWindow_Tests";
+			sourceTree = "<group>";
+		};
+		1781E55135DD630646BC9625259EABCC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C79C6B07FC1C871B14AECE049A129B7 /* Pods-FloatingWindow_Example */,
+				1433F6CE01DF1835E82CCE48E5F2A77F /* Pods-FloatingWindow_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2AB3FE68C8446E8C552FBB84AC082092 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9608506F03D80316A8DCCF809E65477 /* FloatingWindow */,
+				9100CFE1D69FAA05CEC9E4E5FF979F27 /* Pods-FloatingWindow_Example */,
+				ED8B2E50A1E51D87CFC43EE3BFD3B7C2 /* Pods-FloatingWindow_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C79C6B07FC1C871B14AECE049A129B7 /* Pods-FloatingWindow_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AB8691790D8EAD6D287A928E8246884A /* Pods-FloatingWindow_Example.modulemap */,
+				AA7CF76E51219AA5B012C6A496DF451B /* Pods-FloatingWindow_Example-acknowledgements.markdown */,
+				D7B49C7AB3E2E63D8779A9FEF13CBB58 /* Pods-FloatingWindow_Example-acknowledgements.plist */,
+				85D336ACF1BCEFD502A264225055A557 /* Pods-FloatingWindow_Example-dummy.m */,
+				8C2D3D33095B5264B10A4CEA54A9F1B8 /* Pods-FloatingWindow_Example-frameworks.sh */,
+				0A5BBDBB2248FC77D1EDA5B936E56065 /* Pods-FloatingWindow_Example-Info.plist */,
+				6D1C49D5EA41BF16DEF5F24136DCC33F /* Pods-FloatingWindow_Example-umbrella.h */,
+				2CBE79122EE9D9E8A71049AF7BAE3FA3 /* Pods-FloatingWindow_Example.debug.xcconfig */,
+				E2567BD2FDD78CCACCC721B8AE6CDCDD /* Pods-FloatingWindow_Example.release.xcconfig */,
+			);
+			name = "Pods-FloatingWindow_Example";
+			path = "Target Support Files/Pods-FloatingWindow_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5FF282A12774C324E51BF345BC852E5E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD1E24D10FB7AE76F589B363D90AD7BB /* FloatingWindow.modulemap */,
+				A473BF20CDD958F673DCFB619788664D /* FloatingWindow-dummy.m */,
+				7B1AFED2C1BCA7C632DA7C397115F2CC /* FloatingWindow-Info.plist */,
+				0C82A150DE9B7576E32AA46BBC44E115 /* FloatingWindow-prefix.pch */,
+				D881DDC3EA3369B71080466CA874115E /* FloatingWindow-umbrella.h */,
+				07C290785F490F44113A1EB580DB0CDD /* FloatingWindow.debug.xcconfig */,
+				F85594A06ED0F7282E1DDE44E4ACE26F /* FloatingWindow.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FloatingWindow";
+			sourceTree = "<group>";
+		};
+		A9FA36E0C4C3540DD9B471A26973A84D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2EF8A872E7EF4DA3A14BDE4BA259DAA4 /* FloatingWindow.podspec */,
+				E1810BE8CA3D389BE8C2935E26E3880D /* LICENSE */,
+				908374F38412B07D23289F35E032E74D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				ED560637F2D6D2E089418A592022350B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2AB3FE68C8446E8C552FBB84AC082092 /* Products */,
+				1781E55135DD630646BC9625259EABCC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED560637F2D6D2E089418A592022350B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AE08E0425276879BC8765513FB2F96E /* FloatingWindow */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4AF3674C05777072D6E3EB96BD45F889 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB559F4782CCE785BD4F8330F706CD07 /* Pods-FloatingWindow_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69232BFA86FD020EA0D879A875738E50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109AF50843B2D97C188E430CAEDF20CA /* FloatingWindow-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78E95BCC6E3AE9753DBB839D36E2D3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2D5AB07DC2ADB5ED461D71AC23A030 /* Pods-FloatingWindow_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D04C87C1A3ACD858980FD0D10DA2F83 /* Pods-FloatingWindow_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6745FDB92D5F22209B6759EB6857A6 /* Build configuration list for PBXNativeTarget "Pods-FloatingWindow_Example" */;
+			buildPhases = (
+				4AF3674C05777072D6E3EB96BD45F889 /* Headers */,
+				0CA14788817B621FB777ADF5881D2BDC /* Sources */,
+				4A79DAF34EB758F216D69C0A7673A432 /* Frameworks */,
+				A49892C743B48FD118788336D9C8DBF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5714EE9D12F71E3D83C3005BCF2ED9A8 /* PBXTargetDependency */,
+			);
+			name = "Pods-FloatingWindow_Example";
+			productName = Pods_FloatingWindow_Example;
+			productReference = 9100CFE1D69FAA05CEC9E4E5FF979F27 /* Pods-FloatingWindow_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD20DEE90B00066E3125A05825CCC8E8 /* Pods-FloatingWindow_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA16484E97C5EFE4D210D87552771D7A /* Build configuration list for PBXNativeTarget "Pods-FloatingWindow_Tests" */;
+			buildPhases = (
+				F78E95BCC6E3AE9753DBB839D36E2D3B /* Headers */,
+				7EB3F60AD87684016EB1A496E4704ED9 /* Sources */,
+				BCD83753D5A2E83EE8CBA702A0F72A16 /* Frameworks */,
+				534346DEF7461AFA5298EAB6B09A2B18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E524D6E37D1C5909B4F37BEC11EE15F5 /* PBXTargetDependency */,
+			);
+			name = "Pods-FloatingWindow_Tests";
+			productName = Pods_FloatingWindow_Tests;
+			productReference = ED8B2E50A1E51D87CFC43EE3BFD3B7C2 /* Pods-FloatingWindow_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		E08D0AD68054717418D405D6B2F68C16 /* FloatingWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2152AA9BF91ED93F420B9E20837997CE /* Build configuration list for PBXNativeTarget "FloatingWindow" */;
+			buildPhases = (
+				69232BFA86FD020EA0D879A875738E50 /* Headers */,
+				9A19FA092AD9CC11365DBF451A9C5253 /* Sources */,
+				2D7722DC8A50A88BA99334E3700919E2 /* Frameworks */,
+				03C2204535C3CC729A3B2CE3E92F921D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloatingWindow;
+			productName = FloatingWindow;
+			productReference = D9608506F03D80316A8DCCF809E65477 /* FloatingWindow */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2AB3FE68C8446E8C552FBB84AC082092 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E08D0AD68054717418D405D6B2F68C16 /* FloatingWindow */,
+				8D04C87C1A3ACD858980FD0D10DA2F83 /* Pods-FloatingWindow_Example */,
+				DD20DEE90B00066E3125A05825CCC8E8 /* Pods-FloatingWindow_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03C2204535C3CC729A3B2CE3E92F921D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		534346DEF7461AFA5298EAB6B09A2B18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49892C743B48FD118788336D9C8DBF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CA14788817B621FB777ADF5881D2BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53DEF54620942B10B1D0CE05155B325 /* Pods-FloatingWindow_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB3F60AD87684016EB1A496E4704ED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71EBC6559198EFA400CBC8E01E2D5A7 /* Pods-FloatingWindow_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A19FA092AD9CC11365DBF451A9C5253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44CD8B7E4630054B111B4021CB2D42B /* FloatingWindow-dummy.m in Sources */,
+				04EE7D47C448E6F7964324C6F9F8ED7D /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5714EE9D12F71E3D83C3005BCF2ED9A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FloatingWindow;
+			target = E08D0AD68054717418D405D6B2F68C16 /* FloatingWindow */;
+			targetProxy = 78C01B4EA77176EC5EF6759B2987B664 /* PBXContainerItemProxy */;
+		};
+		E524D6E37D1C5909B4F37BEC11EE15F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FloatingWindow_Example";
+			target = 8D04C87C1A3ACD858980FD0D10DA2F83 /* Pods-FloatingWindow_Example */;
+			targetProxy = 95ED811868ECFDAF795569C48DE9C8AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AE602286E0B096401F38591471C4D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B9BE6875E8027F422024FFD9E3237DE /* Pods-FloatingWindow_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FloatingWindow_Tests/Pods-FloatingWindow_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FloatingWindow_Tests/Pods-FloatingWindow_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C76F86CB4D1205E1B5A4F807836F26A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC5EEB10D24CE5880E59C143CDA6DA0C /* Pods-FloatingWindow_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FloatingWindow_Tests/Pods-FloatingWindow_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FloatingWindow_Tests/Pods-FloatingWindow_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		530045875F91AAC263C6D33AEFB8A35A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CBE79122EE9D9E8A71049AF7BAE3FA3 /* Pods-FloatingWindow_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FloatingWindow_Example/Pods-FloatingWindow_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FloatingWindow_Example/Pods-FloatingWindow_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		77C8BA7AB8A0515774B14BA161BDAD11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2567BD2FDD78CCACCC721B8AE6CDCDD /* Pods-FloatingWindow_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FloatingWindow_Example/Pods-FloatingWindow_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FloatingWindow_Example/Pods-FloatingWindow_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CAA599E7E88422D2748A5E9678E310F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07C290785F490F44113A1EB580DB0CDD /* FloatingWindow.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FloatingWindow/FloatingWindow-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FloatingWindow/FloatingWindow-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FloatingWindow/FloatingWindow.modulemap";
+				PRODUCT_MODULE_NAME = FloatingWindow;
+				PRODUCT_NAME = FloatingWindow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F75ADE936379C9B7C0BFDF5FD21E4ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F85594A06ED0F7282E1DDE44E4ACE26F /* FloatingWindow.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FloatingWindow/FloatingWindow-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FloatingWindow/FloatingWindow-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FloatingWindow/FloatingWindow.modulemap";
+				PRODUCT_MODULE_NAME = FloatingWindow;
+				PRODUCT_NAME = FloatingWindow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2152AA9BF91ED93F420B9E20837997CE /* Build configuration list for PBXNativeTarget "FloatingWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA599E7E88422D2748A5E9678E310F1 /* Debug */,
+				F75ADE936379C9B7C0BFDF5FD21E4ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6745FDB92D5F22209B6759EB6857A6 /* Build configuration list for PBXNativeTarget "Pods-FloatingWindow_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				530045875F91AAC263C6D33AEFB8A35A /* Debug */,
+				77C8BA7AB8A0515774B14BA161BDAD11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA16484E97C5EFE4D210D87552771D7A /* Build configuration list for PBXNativeTarget "Pods-FloatingWindow_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AE602286E0B096401F38591471C4D4B /* Debug */,
+				2C76F86CB4D1205E1B5A4F807836F26A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

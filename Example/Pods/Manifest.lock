@@ -1,0 +1,16 @@
+PODS:
+  - FloatingWindow (0.1.0)
+
+DEPENDENCIES:
+  - FloatingWindow (from `../`)
+
+EXTERNAL SOURCES:
+  FloatingWindow:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FloatingWindow: 72b6586df5fbe07ed952ef0bf24ae195f6095939
+
+PODFILE CHECKSUM: 9e93ff63aee775a67d6abf100cdd5b800ffcc65d
+
+COCOAPODS: 1.11.3
