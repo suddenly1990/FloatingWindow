@@ -7,12 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04EE7D47C448E6F7964324C6F9F8ED7D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 421EB5AFB62576EA83BBE44322196B1C /* ReplaceMe.m */; };
 		109AF50843B2D97C188E430CAEDF20CA /* FloatingWindow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D881DDC3EA3369B71080466CA874115E /* FloatingWindow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E83550685C816BF842FA12BA1AE707F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		6A2D5AB07DC2ADB5ED461D71AC23A030 /* Pods-FloatingWindow_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B3AA939950E0D2327D8ED55DD868CA1 /* Pods-FloatingWindow_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82A17E1E1AC72DD085468788739CD31C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A72369CA76116648AA4D0FB90BA255DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B230F33429124B6400C5F09C /* DoraemonEntryWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B230F32C29124B6300C5F09C /* DoraemonEntryWindow.h */; };
+		B230F33529124B6400C5F09C /* DoraemonEntryWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B230F32C29124B6300C5F09C /* DoraemonEntryWindow.h */; };
+		B230F33629124B6400C5F09C /* DoraemonEntryWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B230F32C29124B6300C5F09C /* DoraemonEntryWindow.h */; };
+		B230F33729124B6400C5F09C /* UIImage+Doraemon.h in Headers */ = {isa = PBXBuildFile; fileRef = B230F32D29124B6300C5F09C /* UIImage+Doraemon.h */; };
+		B230F33829124B6400C5F09C /* UIImage+Doraemon.h in Headers */ = {isa = PBXBuildFile; fileRef = B230F32D29124B6300C5F09C /* UIImage+Doraemon.h */; };
+		B230F33929124B6400C5F09C /* UIImage+Doraemon.h in Headers */ = {isa = PBXBuildFile; fileRef = B230F32D29124B6300C5F09C /* UIImage+Doraemon.h */; };
+		B230F33A29124B6400C5F09C /* UIImage+Doraemon.m in Sources */ = {isa = PBXBuildFile; fileRef = B230F32E29124B6300C5F09C /* UIImage+Doraemon.m */; };
+		B230F33B29124B6400C5F09C /* UIImage+Doraemon.m in Sources */ = {isa = PBXBuildFile; fileRef = B230F32E29124B6300C5F09C /* UIImage+Doraemon.m */; };
+		B230F33C29124B6400C5F09C /* UIImage+Doraemon.m in Sources */ = {isa = PBXBuildFile; fileRef = B230F32E29124B6300C5F09C /* UIImage+Doraemon.m */; };
+		B230F33D29124B6400C5F09C /* UIView+Doraemon.h in Headers */ = {isa = PBXBuildFile; fileRef = B230F32F29124B6300C5F09C /* UIView+Doraemon.h */; };
+		B230F33E29124B6400C5F09C /* UIView+Doraemon.h in Headers */ = {isa = PBXBuildFile; fileRef = B230F32F29124B6300C5F09C /* UIView+Doraemon.h */; };
+		B230F33F29124B6400C5F09C /* UIView+Doraemon.h in Headers */ = {isa = PBXBuildFile; fileRef = B230F32F29124B6300C5F09C /* UIView+Doraemon.h */; };
+		B230F34029124B6400C5F09C /* UIView+Doraemon.m in Sources */ = {isa = PBXBuildFile; fileRef = B230F33029124B6300C5F09C /* UIView+Doraemon.m */; };
+		B230F34129124B6400C5F09C /* UIView+Doraemon.m in Sources */ = {isa = PBXBuildFile; fileRef = B230F33029124B6300C5F09C /* UIView+Doraemon.m */; };
+		B230F34229124B6400C5F09C /* UIView+Doraemon.m in Sources */ = {isa = PBXBuildFile; fileRef = B230F33029124B6300C5F09C /* UIView+Doraemon.m */; };
+		B230F34329124B6400C5F09C /* DoraemonEntryWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B230F33129124B6300C5F09C /* DoraemonEntryWindow.m */; };
+		B230F34429124B6400C5F09C /* DoraemonEntryWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B230F33129124B6300C5F09C /* DoraemonEntryWindow.m */; };
+		B230F34529124B6400C5F09C /* DoraemonEntryWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B230F33129124B6300C5F09C /* DoraemonEntryWindow.m */; };
+		B230F34629124B6400C5F09C /* DoraemonHomeWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B230F33229124B6400C5F09C /* DoraemonHomeWindow.h */; };
+		B230F34729124B6400C5F09C /* DoraemonHomeWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B230F33229124B6400C5F09C /* DoraemonHomeWindow.h */; };
+		B230F34829124B6400C5F09C /* DoraemonHomeWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B230F33229124B6400C5F09C /* DoraemonHomeWindow.h */; };
+		B230F34929124B6400C5F09C /* DoraemonHomeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B230F33329124B6400C5F09C /* DoraemonHomeWindow.m */; };
+		B230F34A29124B6400C5F09C /* DoraemonHomeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B230F33329124B6400C5F09C /* DoraemonHomeWindow.m */; };
+		B230F34B29124B6400C5F09C /* DoraemonHomeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B230F33329124B6400C5F09C /* DoraemonHomeWindow.m */; };
 		B44CD8B7E4630054B111B4021CB2D42B /* FloatingWindow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A473BF20CDD958F673DCFB619788664D /* FloatingWindow-dummy.m */; };
 		C53DEF54620942B10B1D0CE05155B325 /* Pods-FloatingWindow_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D336ACF1BCEFD502A264225055A557 /* Pods-FloatingWindow_Example-dummy.m */; };
 		CB559F4782CCE785BD4F8330F706CD07 /* Pods-FloatingWindow_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D1C49D5EA41BF16DEF5F24136DCC33F /* Pods-FloatingWindow_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,8 +66,7 @@
 		1B3AA939950E0D2327D8ED55DD868CA1 /* Pods-FloatingWindow_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FloatingWindow_Tests-umbrella.h"; sourceTree = "<group>"; };
 		293B45F8061E60F460032CE3697A1503 /* Pods-FloatingWindow_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FloatingWindow_Tests.modulemap"; sourceTree = "<group>"; };
 		2CBE79122EE9D9E8A71049AF7BAE3FA3 /* Pods-FloatingWindow_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FloatingWindow_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2EF8A872E7EF4DA3A14BDE4BA259DAA4 /* FloatingWindow.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FloatingWindow.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		421EB5AFB62576EA83BBE44322196B1C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = FloatingWindow/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		2EF8A872E7EF4DA3A14BDE4BA259DAA4 /* FloatingWindow.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FloatingWindow.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4B9BE6875E8027F422024FFD9E3237DE /* Pods-FloatingWindow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FloatingWindow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		527CDBEE826BF47BE8D784B57AF075EB /* Pods-FloatingWindow_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FloatingWindow_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6D1C49D5EA41BF16DEF5F24136DCC33F /* Pods-FloatingWindow_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FloatingWindow_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -53,18 +75,26 @@
 		7B1AFED2C1BCA7C632DA7C397115F2CC /* FloatingWindow-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FloatingWindow-Info.plist"; sourceTree = "<group>"; };
 		85D336ACF1BCEFD502A264225055A557 /* Pods-FloatingWindow_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FloatingWindow_Example-dummy.m"; sourceTree = "<group>"; };
 		8C2D3D33095B5264B10A4CEA54A9F1B8 /* Pods-FloatingWindow_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FloatingWindow_Example-frameworks.sh"; sourceTree = "<group>"; };
-		908374F38412B07D23289F35E032E74D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		908374F38412B07D23289F35E032E74D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9100CFE1D69FAA05CEC9E4E5FF979F27 /* Pods-FloatingWindow_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FloatingWindow_Example"; path = Pods_FloatingWindow_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A473BF20CDD958F673DCFB619788664D /* FloatingWindow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FloatingWindow-dummy.m"; sourceTree = "<group>"; };
 		AA7CF76E51219AA5B012C6A496DF451B /* Pods-FloatingWindow_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FloatingWindow_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AB8691790D8EAD6D287A928E8246884A /* Pods-FloatingWindow_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FloatingWindow_Example.modulemap"; sourceTree = "<group>"; };
+		B230F32C29124B6300C5F09C /* DoraemonEntryWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonEntryWindow.h; sourceTree = "<group>"; };
+		B230F32D29124B6300C5F09C /* UIImage+Doraemon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Doraemon.h"; sourceTree = "<group>"; };
+		B230F32E29124B6300C5F09C /* UIImage+Doraemon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Doraemon.m"; sourceTree = "<group>"; };
+		B230F32F29124B6300C5F09C /* UIView+Doraemon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Doraemon.h"; sourceTree = "<group>"; };
+		B230F33029124B6300C5F09C /* UIView+Doraemon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Doraemon.m"; sourceTree = "<group>"; };
+		B230F33129124B6300C5F09C /* DoraemonEntryWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonEntryWindow.m; sourceTree = "<group>"; };
+		B230F33229124B6400C5F09C /* DoraemonHomeWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonHomeWindow.h; sourceTree = "<group>"; };
+		B230F33329124B6400C5F09C /* DoraemonHomeWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonHomeWindow.m; sourceTree = "<group>"; };
 		BAEE3AE02699046595DC107F11DBEB17 /* Pods-FloatingWindow_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FloatingWindow_Tests-Info.plist"; sourceTree = "<group>"; };
 		CD1E24D10FB7AE76F589B363D90AD7BB /* FloatingWindow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FloatingWindow.modulemap; sourceTree = "<group>"; };
 		D7B49C7AB3E2E63D8779A9FEF13CBB58 /* Pods-FloatingWindow_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FloatingWindow_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D881DDC3EA3369B71080466CA874115E /* FloatingWindow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FloatingWindow-umbrella.h"; sourceTree = "<group>"; };
 		D9608506F03D80316A8DCCF809E65477 /* FloatingWindow */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FloatingWindow; path = FloatingWindow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1810BE8CA3D389BE8C2935E26E3880D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E1810BE8CA3D389BE8C2935E26E3880D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E2567BD2FDD78CCACCC721B8AE6CDCDD /* Pods-FloatingWindow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FloatingWindow_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E5DEEFBAF7BEF6D01217E86085238D17 /* Pods-FloatingWindow_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FloatingWindow_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EC5EEB10D24CE5880E59C143CDA6DA0C /* Pods-FloatingWindow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FloatingWindow_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +133,14 @@
 		0AE08E0425276879BC8765513FB2F96E /* FloatingWindow */ = {
 			isa = PBXGroup;
 			children = (
-				421EB5AFB62576EA83BBE44322196B1C /* ReplaceMe.m */,
+				B230F32C29124B6300C5F09C /* DoraemonEntryWindow.h */,
+				B230F33129124B6300C5F09C /* DoraemonEntryWindow.m */,
+				B230F33229124B6400C5F09C /* DoraemonHomeWindow.h */,
+				B230F33329124B6400C5F09C /* DoraemonHomeWindow.m */,
+				B230F32D29124B6300C5F09C /* UIImage+Doraemon.h */,
+				B230F32E29124B6300C5F09C /* UIImage+Doraemon.m */,
+				B230F32F29124B6300C5F09C /* UIView+Doraemon.h */,
+				B230F33029124B6300C5F09C /* UIView+Doraemon.m */,
 				A9FA36E0C4C3540DD9B471A26973A84D /* Pod */,
 				5FF282A12774C324E51BF345BC852E5E /* Support Files */,
 			);
@@ -230,6 +267,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B230F34729124B6400C5F09C /* DoraemonHomeWindow.h in Headers */,
+				B230F33E29124B6400C5F09C /* UIView+Doraemon.h in Headers */,
+				B230F33829124B6400C5F09C /* UIImage+Doraemon.h in Headers */,
+				B230F33529124B6400C5F09C /* DoraemonEntryWindow.h in Headers */,
 				CB559F4782CCE785BD4F8330F706CD07 /* Pods-FloatingWindow_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +279,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B230F34629124B6400C5F09C /* DoraemonHomeWindow.h in Headers */,
+				B230F33D29124B6400C5F09C /* UIView+Doraemon.h in Headers */,
+				B230F33729124B6400C5F09C /* UIImage+Doraemon.h in Headers */,
+				B230F33429124B6400C5F09C /* DoraemonEntryWindow.h in Headers */,
 				109AF50843B2D97C188E430CAEDF20CA /* FloatingWindow-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,6 +291,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B230F34829124B6400C5F09C /* DoraemonHomeWindow.h in Headers */,
+				B230F33F29124B6400C5F09C /* UIView+Doraemon.h in Headers */,
+				B230F33929124B6400C5F09C /* UIImage+Doraemon.h in Headers */,
+				B230F33629124B6400C5F09C /* DoraemonEntryWindow.h in Headers */,
 				6A2D5AB07DC2ADB5ED461D71AC23A030 /* Pods-FloatingWindow_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,7 +416,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B230F34A29124B6400C5F09C /* DoraemonHomeWindow.m in Sources */,
+				B230F33B29124B6400C5F09C /* UIImage+Doraemon.m in Sources */,
 				C53DEF54620942B10B1D0CE05155B325 /* Pods-FloatingWindow_Example-dummy.m in Sources */,
+				B230F34129124B6400C5F09C /* UIView+Doraemon.m in Sources */,
+				B230F34429124B6400C5F09C /* DoraemonEntryWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +428,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B230F34B29124B6400C5F09C /* DoraemonHomeWindow.m in Sources */,
+				B230F33C29124B6400C5F09C /* UIImage+Doraemon.m in Sources */,
 				D71EBC6559198EFA400CBC8E01E2D5A7 /* Pods-FloatingWindow_Tests-dummy.m in Sources */,
+				B230F34229124B6400C5F09C /* UIView+Doraemon.m in Sources */,
+				B230F34529124B6400C5F09C /* DoraemonEntryWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,8 +440,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B230F34329124B6400C5F09C /* DoraemonEntryWindow.m in Sources */,
 				B44CD8B7E4630054B111B4021CB2D42B /* FloatingWindow-dummy.m in Sources */,
-				04EE7D47C448E6F7964324C6F9F8ED7D /* ReplaceMe.m in Sources */,
+				B230F34029124B6400C5F09C /* UIView+Doraemon.m in Sources */,
+				B230F33A29124B6400C5F09C /* UIImage+Doraemon.m in Sources */,
+				B230F34929124B6400C5F09C /* DoraemonHomeWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,8 +655,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
