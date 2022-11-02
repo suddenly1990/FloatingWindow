@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'FloatingWindow_Example' do
+  pod 'FloatingWindow', :path => '../'
+
+  target 'FloatingWindow_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
